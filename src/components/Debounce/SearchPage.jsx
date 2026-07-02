@@ -1,6 +1,6 @@
 import React, { useState } from 'react';
 
-import SearchInput from "../../SearchInput";
+import SearchInput from "./SearchInput";
 import List from "./List";
 import useDebounce from "../../hooks/useDebounce";
 

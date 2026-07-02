@@ -39,6 +39,13 @@ function LandingPage() {
                     Infinite Scroll
                 </Link>
 
+                <Link
+                    to="/CookieDashboard"
+                    className="bg-blue-500 px-6 py-3 rounded-lg w-full sm:w-auto text-center hover:bg-blue-600 transition"
+                >
+                    Cookies Demo
+                </Link>
+
             </div>
         </div>
     );
