@@ -17,8 +17,11 @@ async function checkVersion() {
   console.log('Server:', data.version);
   console.log('Browser:', browserVersion);
 
-  // 👇 PUT THE CODE HERE
   if (browserVersion !== data.version) {
+
+    console.log("VERSION MISMATCH");
+    console.log("Old Version:", browserVersion);
+    console.log("New Version:", data.version);
 
     localStorage.setItem(
       'app_version',
