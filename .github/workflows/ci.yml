@@ -25,5 +25,5 @@ jobs:
       - name: Install Dependencies
         run: npm install
 
-      - name: test
-        run: exit 1
+      - name: Build Project
+        run: npm run build
