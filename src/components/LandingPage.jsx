@@ -45,14 +45,6 @@ function LandingPage() {
                 >
                     Cookies Demo
                 </Link>
-
-                <Link
-                    to="/Testing"
-                    className="bg-blue-500 px-6 py-3 rounded-lg w-full sm:w-auto text-center hover:bg-blue-600 transition"
-                >
-                    Testing
-                </Link>
-
             </div>
         </div>
     );
