@@ -63,7 +63,13 @@ const App = () => {
           path="/CookieDashboard"
           element={<CookieDashboard />}
         />
+
+        <Route
+          path="/Testing"
+          element={<CookieDashboard />}
+        />
       </Routes>
+
     </BrowserRouter >
   )
 };
